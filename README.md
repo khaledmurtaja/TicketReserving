@@ -9,5 +9,7 @@ The main idea form this application is to book tickets for movies & use them , a
 
 # features 
 #read ether amount.
-#buy ticket(you can select number of tickets you want to reserve and the name of movie), this will be in a bottom sheet form in the flutter project
+
+#buy ticket(you can select number of tickets you want to reserve and the name of movie), this will be in a bottom sheet form in the flutter project.
+
 #use ticket
