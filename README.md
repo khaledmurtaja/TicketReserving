@@ -1,16 +1,11 @@
 # ticketreserving
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# ticketreserving is a flutter blockchaiin based appplication .
+This project contains one screen written with dart. 
+I used HTTP package to connect my smart contract to the flutter application . 
+I used ropsten test network with MetaMask wallet to upload my smart program into the network. 
+The main idea form this application is to book tickets for movies & use them , also you can read your number form etherum you have ,
+features 
+# read ether amount.
+# buy ticket(you can select number of tickets you want to reserve and the name of movie), this will be in a bottom sheet form in the flutter project
+# use ticket
