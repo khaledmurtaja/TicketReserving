@@ -2,30 +2,30 @@
   {
     "inputs": [
       {
-        "internalType": "address",
-        "name": "_user",
-        "type": "address"
-      },
-      {
         "internalType": "uint256",
         "name": "Amount",
         "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "movieName",
+        "type": "string"
       }
     ],
     "name": "BuyTicket",
     "outputs": [],
-    "stateMutability": "nonpayable",
+    "stateMutability": "payable",
     "type": "function"
   },
   {
     "inputs": [
       {
-        "internalType": "address",
-        "name": "_user",
-        "type": "address"
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
       }
     ],
-    "name": "getTicketNumber",
+    "name": "Reserved_Tickets",
     "outputs": [
       {
         "internalType": "uint256",
@@ -33,36 +33,70 @@
         "type": "uint256"
       }
     ],
-    "stateMutability": "nonpayable",
+    "stateMutability": "view",
     "type": "function"
   },
   {
-    "inputs": [
+    "inputs": [],
+    "name": "getMoviesNamesArray",
+    "outputs": [
       {
-        "internalType": "address",
-        "name": "_user",
-        "type": "address"
-      },
+        "internalType": "string[]",
+        "name": "",
+        "type": "string[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getNumberOfAvailableTickets",
+    "outputs": [
       {
         "internalType": "uint256",
-        "name": "Amount",
+        "name": "",
         "type": "uint256"
       }
     ],
-    "name": "UseTicket",
-    "outputs": [],
-    "stateMutability": "nonpayable",
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getReservedTicketsArray",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [
       {
-        "internalType": "address",
+        "internalType": "uint256",
         "name": "",
-        "type": "address"
+        "type": "uint256"
       }
     ],
-    "name": "_TicketHolders",
+    "name": "movieNames",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "numberOfAvaialbeTickets",
     "outputs": [
       {
         "internalType": "uint256",
