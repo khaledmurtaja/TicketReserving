@@ -1,6 +1,6 @@
 # ticketreserving
 
-# ticketreserving is a flutter blockchaiin based appplication .
+# ticketreserving is a flutter blockchain based appplication .
 This project contains one screen written with dart. 
 I used HTTP package to connect my smart contract to the flutter application . 
 I used ropsten test network with MetaMask wallet to upload my smart program into the network. 
